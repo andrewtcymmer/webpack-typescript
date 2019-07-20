@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es2015", "dom"],
+    "module": "commonjs",
+    "allowJs": false,
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "rootDir": "./src",
+    "composite": true,
+    "incremental": true,
+    "tsBuildInfoFile": "./dist/info",
+    "removeComments": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "noImplicitAny": true
+  },
+  "include": [
+    "src/index.ts",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
